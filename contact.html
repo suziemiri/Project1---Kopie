@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+<body>
+	<header class="page-header">
+		 <!--Add Logo-->
+		 <div class="Logo">
+			 <p class="Suzie">S</p>
+			 <p class="Reutter">Reutter</p>
+		 </div>
+		 <nav class="main-navigation page-header__item">
+			 <ul role="menubar" class="navigation-list">
+		  	<li role="presentation">
+					<a href="index.html#home" target="_blank" role="menuitem" class="navigation-list__item">Home</a>
+		  	</li>
+		  	<li role="presentation">
+					<a href="about.html#about" target="_blank" role="menuitem" style="" class="navigation-list__item">About</a>
+		  	</li>
+				<li role="presentation">
+					 <a href="work.html#work" target="_blank" role="menuitem" class="navigation-list__item">Work</a>
+				</li>
+		  	<li role="presentation">
+		   		<a href="contact.html#contact" target="_blank" role="menuitem" class="navigation-list__item--active">Contact</a>
+		 		</li>
+			</ul>
+	  </nav>
+	 </header>
+	<h1>Contact</h1>
+
+	<div class="contact">
+	  Suzie Reutter<br>
+	  Bla bla Road<br>
+	  88888 Regensburg<br>
+	  <br>
+	  Tel: <a href="+49855255">+49 855 255</a><br>
+	  Skype: <a href="Skype:su.re@blabla.com">su.re@blabla.com</a><br>
+	  E-mail: <a href="mailto:su.re@gmail.com">su.re@gmail.com</a><br>
+	  <a href="mailto:su.re@gmail.com">Contact me!</a>
+	</div>
+	<form action="" method="post" id="contact-form">
+		<label class="standard-label" for="contact-email">E-Mail: </label>
+		<input type="email" id="contact-email" required>
+
+		<label>Tel: </label>
+		<input type="tel" required>
+
+		<label>Message: </label>
+		<textarea required maxlength="240" required></textarea>
+		<input type="submit" value="Send message" required="required">
+	</form>
+
+	<script src="js/tota11y.min.js"></script>
+</body>
+</html>
