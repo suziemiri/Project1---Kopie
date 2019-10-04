@@ -1,13 +1,13 @@
 
 body {
-	background-color: #ffd8c7;
+	background-color: #fbf5e8;
 	font-family: 'Karla', sans-serif;
 }
 
 h1{
 	color: #c34129;
-	font-family: 'Parisienne', cursive;
-	font-weight: 800;
+	font-family: bc-alphapipe, sans-serif;
+	font-weight: 400px;
 }
 
 
@@ -19,8 +19,11 @@ body{
 }
 
 h1{
-  font-size:60px;
+  font-size:100px;
   text-align: center;
+	position: relative;
+	padding: 0;
+	margin: 0;
 }
 
 h2{
@@ -52,7 +55,7 @@ h3{
 }
 
 .Suzie {
-  font-family: 'Parisienne', cursive;
+  font-family: bc-alphapipe, sans-serif;
   font-weight: bold;
   font-size: 24px;
   text-align: center;
@@ -144,6 +147,33 @@ table {
   max-width: 500px;
   text-align: center;
   margin: 0 auto;
+}
+
+.line1 {
+	width: 10px;
+	height: 1200px;
+	background: red;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.line2 {
+	width: 10px;
+	height: 1200px;
+	background: green;
+	position: fixed;
+	top: 0;
+	left: 4;
+}
+
+.line3 {
+	width: 10px;
+	height: 1200px;
+	background: blue;
+	position: fixed;
+	top: 0;
+	left: 10;
 }
 
 form {
