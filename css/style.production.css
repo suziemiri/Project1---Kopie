@@ -86,9 +86,9 @@ button,
 .button,
 .button1 {
   border: none;
-  font-family: inherit;
-  background-color:#ffa518;
-  color: white;
+  font-family: sans-serif;
+  background-color:#f8c1bf;
+  color:#eeeeee;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
